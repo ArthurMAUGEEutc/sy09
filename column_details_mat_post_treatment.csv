@@ -1,27 +1,27 @@
 ﻿Colonne,Type,Nulls,Nulls_%,Min,Max,Moyenne,Uniques,Top_3
-school,object,395,100.0,,,,0.0,{}
-sex,object,395,100.0,,,,0.0,{}
+school,category,0,0.0,,,,2.0,"{'GP': 349, 'MS': 46}"
+sex,category,0,0.0,,,,2.0,"{'F': 208, 'M': 187}"
 age,int64,0,0.0,15.0,22.0,16.7,,
-address,object,395,100.0,,,,0.0,{}
-famsize,object,395,100.0,,,,0.0,{}
-Pstatus,object,395,100.0,,,,0.0,{}
+address,category,0,0.0,,,,2.0,"{'U': 307, 'R': 88}"
+famsize,category,0,0.0,,,,2.0,"{'GT3': 281, 'LE3': 114}"
+Pstatus,category,0,0.0,,,,2.0,"{'T': 354, 'A': 41}"
 Medu,int64,0,0.0,0.0,4.0,2.75,,
 Fedu,int64,0,0.0,0.0,4.0,2.52,,
-Mjob,object,395,100.0,,,,0.0,{}
-Fjob,object,395,100.0,,,,0.0,{}
-reason,object,395,100.0,,,,0.0,{}
-guardian,object,395,100.0,,,,0.0,{}
+Mjob,category,0,0.0,,,,5.0,"{'other': 141, 'services': 103, 'at_home': 59}"
+Fjob,category,0,0.0,,,,5.0,"{'other': 217, 'services': 111, 'teacher': 29}"
+reason,category,0,0.0,,,,4.0,"{'course': 145, 'home': 109, 'reputation': 105}"
+guardian,category,0,0.0,,,,3.0,"{'mother': 273, 'father': 90, 'other': 32}"
 traveltime,int64,0,0.0,1.0,4.0,1.45,,
 studytime,int64,0,0.0,1.0,4.0,2.04,,
 failures,int64,0,0.0,0.0,3.0,0.33,,
-schoolsup,str,0,0.0,,,,,
-famsup,str,0,0.0,,,,,
-paid,str,0,0.0,,,,,
-activities,str,0,0.0,,,,,
-nursery,str,0,0.0,,,,,
-higher,str,0,0.0,,,,,
-internet,str,0,0.0,,,,,
-romantic,str,0,0.0,,,,,
+schoolsup,bool,0,0.0,,,,,
+famsup,bool,0,0.0,,,,,
+paid,bool,0,0.0,,,,,
+activities,bool,0,0.0,,,,,
+nursery,bool,0,0.0,,,,,
+higher,bool,0,0.0,,,,,
+internet,bool,0,0.0,,,,,
+romantic,bool,0,0.0,,,,,
 famrel,int64,0,0.0,1.0,5.0,3.94,,
 freetime,int64,0,0.0,1.0,5.0,3.24,,
 goout,int64,0,0.0,1.0,5.0,3.11,,
