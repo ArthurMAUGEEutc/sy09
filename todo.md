@@ -31,14 +31,34 @@ Voici la problématique formalisée :
 - Le temps de trajet (`traveltime`) pénalise-t-il la réussite ?
 
 ### Axe 3 — Comportement & mode de vie
-- La consommation d'alcool (`Dalc`, `Walc`) impacte-t-elle les notes ?
+- La consommation d'alcool (`Dalc`, `Walc`) impacte-t-elle les notes ? où même est-ce que si on habite loin, est-ce que ça impacte la consomation d'alcool ?
 - Cet effet est-il différent selon le sexe ?
 
 ### Axe 4 — Comparaison Maths vs Portugais
 - Les tendances observées sont-elles les mêmes dans les deux matières ?
 - Les deux populations sont-elles comparables ?
 
+
+### Axe 5 - Apprentissage Supervisé
+- apprendre sur un échantillon avec les étudiants alcoolique puis essayer sur un autre échantillon
+
+#### Suite du modèle LDA (classe_alcool, 3 classes, avec Dalc + sex) :
+- [X] Interpréter les axes LDA — coefficients discriminants pour comprendre le poids réel de chaque feature -> PSMR
+- [ ] Visualiser la projection LDA — projeter les individus sur les 2 axes discriminants (comme ACP mais optimisée pour séparer les classes)
+- [ ] Analyser les erreurs — qui sont les élèves mal classés ? Est-ce systématique (ex : filles Régulières confondues avec Modéré) ?
+
+#### Comparaison avec student_por :
+- [ ] Comparer la distribution de Walc/Dalc entre mat et por — est-ce que les classes alcool sont les mêmes dans les deux populations ?
+- [ ] Entraîner sur student_mat, tester sur student_por — test de généralisation du modèle
+- [ ] Comparer les modèles indépendants — entraîner un LDA sur chaque dataset et comparer les accuracies et coefficients
+
 ---
 
 **Variable cible principale :** `G3` (note finale), avec `G1` et `G2` pour observer la progression.
+
+
+Faire l'ACP sur G3 et G1,G2 pour les analyses en rapport avec la note 
+
+
+on va essayer freetime goout traveltime absences failures et studytime pour commencer. A terme j'aimerais bien recuperer ces paramètre et pourquoi pas d'autre (qu'on a pas mis dans le tableau de corrélation) pour faire un apprentissage supervisé pour apprendre sur le style "non-alcoolique, modéré, alcoolique". On va faire ça après
 
