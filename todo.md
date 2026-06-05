@@ -62,3 +62,12 @@ Faire l'ACP sur G3 et G1,G2 pour les analyses en rapport avec la note
 
 on va essayer freetime goout traveltime absences failures et studytime pour commencer. A terme j'aimerais bien recuperer ces paramètre et pourquoi pas d'autre (qu'on a pas mis dans le tableau de corrélation) pour faire un apprentissage supervisé pour apprendre sur le style "non-alcoolique, modéré, alcoolique". On va faire ça après
 
+
+
+
+04/06
+
+[ ] Regarder comment les cluster se sont redistribué entre K=3 et K=4,5
+[X] Regarder la théorie de corrélation entre romantic et absence. 
+[ ] Regarder en fonction du métier des parents
+[ ] Faire d'autre visualisation pour mieux voir les nuages de points
