@@ -71,3 +71,4 @@ on va essayer freetime goout traveltime absences failures et studytime pour comm
 [X] Regarder la théorie de corrélation entre romantic et absence. 
 [ ] Regarder en fonction du métier des parents
 [ ] Faire d'autre visualisation pour mieux voir les nuages de points
+[ ] Rajouter l'indice de rand entre quanti et toute les variables pour mat et por pour montrer l'impact 
