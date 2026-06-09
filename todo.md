@@ -72,3 +72,4 @@ on va essayer freetime goout traveltime absences failures et studytime pour comm
 [ ] Regarder en fonction du métier des parents
 [ ] Faire d'autre visualisation pour mieux voir les nuages de points
 [ ] Rajouter l'indice de rand entre quanti et toute les variables pour mat et por pour montrer l'impact 
+[] Faire boxplot G3 sur les clusters
